@@ -78,20 +78,6 @@ const speciesData = [
   },
 ];
 
-app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "*"); // Or specify the domain you want to allow
-  res.setHeader(
-    "Access-Control-Allow-Methods",
-    "GET, POST, OPTIONS, PUT, PATCH, DELETE"
-  );
-  res.setHeader(
-    "Access-Control-Allow-Headers",
-    "X-Requested-With,content-type"
-  );
-  res.setHeader("Access-Control-Allow-Credentials", true);
-  next();
-});
-
 // Route to get top 5 endangered species for a given continent
 app.get("/endangered/:continent", (req, res) => {
   const { continent } = req.params;
