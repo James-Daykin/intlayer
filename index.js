@@ -91,6 +91,7 @@ app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Credentials", true);
   next();
 });
+//changes
 
 // Route to get top 5 endangered species for a given continent
 app.get("/endangered/:continent", (req, res) => {
