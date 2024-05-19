@@ -8,12 +8,7 @@ var corsOptions = {
   origin: "*",
   optionsSuccessStatus: 200,
 };
-app.use(
-  cors({
-    credentials: true,
-    origin: true,
-  })
-);
+app.use(cors(corsOptions));
 
 // Sample species data
 const speciesData = [
