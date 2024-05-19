@@ -4,8 +4,11 @@ const app = express();
 const PORT = 3001;
 
 var cors = require("cors");
-
-app.use(cors);
+var corsOptions = {
+  origin: "*",
+  optionsSuccessStatus: 200,
+};
+app.use(cors({ origin: "https://wildlife-chi.vercel.app" }));
 
 // Sample species data
 const speciesData = [
@@ -84,7 +87,6 @@ const speciesData = [
 
 // Route to get top 5 endangered species for a given continent
 app.get("/endangered/:continent", (req, res) => {
-  res.setHeader("Access-Control-Allow-Origin", "*");
   const { continent } = req.params;
   const continentSpecies = speciesData.filter(
     (species) => species.continent === continent
