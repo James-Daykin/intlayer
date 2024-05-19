@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const PORT = 3001;
 
-var cors = require("cors");
+const cors = require("cors");
 var corsOptions = {
   origin: "*",
   optionsSuccessStatus: 200,
