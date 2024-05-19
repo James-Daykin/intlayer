@@ -3,6 +3,13 @@ const express = require("express");
 const app = express();
 const PORT = 3001;
 
+var cors = require("cors");
+var corsOptions = {
+  origin: "*",
+  optionsSuccessStatus: 200,
+};
+app.use(cors(corsOptions));
+
 // Sample species data
 const speciesData = [
   {
