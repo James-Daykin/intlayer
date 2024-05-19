@@ -78,17 +78,8 @@ const speciesData = [
   },
 ];
 
-app.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
-  );
-  next();
-});
-
 // Route to get top 5 endangered species for a given continent
-app.get("/endangered/:continent", (req, res, next) => {
+app.get("/endangered/:continent", (req, res) => {
   const { continent } = req.params;
   const continentSpecies = speciesData.filter(
     (species) => species.continent === continent
