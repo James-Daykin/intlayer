@@ -2,8 +2,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const PORT =
-  "https://vercel.com/james-daykins-projects/intlayer/DsoKu2rA68xhMTqkKokmdLLjW1fY";
+const PORT = 3001;
 
 // CORS configuration
 const corsOptions = {
