@@ -2,7 +2,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const PORT = 3001;
+const PORT = "https://intlayer-ltwv15yft-james-daykins-projects.vercel.app/";
 
 // CORS configuration
 const corsOptions = {
@@ -151,10 +151,12 @@ app.get("/species-descriptions/:id", (req, res) => {
   if (species) {
     res.json(species);
   } else {
-    res.status(404).send({ error: "Species not found?" });
+    res.status(404).send({ error: "Species not found" });
   }
 });
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+module.exports = app;
