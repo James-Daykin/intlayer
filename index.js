@@ -134,7 +134,7 @@ const speciesNamesAndDescriptions = speciesData.map((species) => ({
 }));
 
 // Route to get top 5 endangered species for a given continent
-app.get("/endangered/:continent", (req, res) => {
+app.get("/api/endangered/:continent", (req, res) => {
   const { continent } = req.params;
   const continentSpecies = speciesData.filter(
     (species) => species.continent === continent
