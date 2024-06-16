@@ -1,6 +1,6 @@
 {
   "version": 2,
-
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
   "builds": [
     {
       "src": "/index.js",
@@ -10,8 +10,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.js",
-      "methods": ["GET", "POST", "PUT", "PATCH", "OPTIONS", "DELETE"]
+      "dest": "/index.js"
     }
   ],
   "headers": [
