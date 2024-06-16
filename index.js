@@ -7,6 +7,9 @@ const PORT = "https://intlayer-ltwv15yft-james-daykins-projects.vercel.app/";
 // CORS configuration
 const corsOptions = {
   origin: "*",
+  methods: "*",
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: true,
   optionsSuccessStatus: 200,
 };
 app.use(cors(corsOptions));
