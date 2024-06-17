@@ -1,13 +1,18 @@
 {
   "version": 2,
+
   "builds": [
     {
-      "src": "./index.js",
+      "src": "/index.js",
       "use": "@vercel/node"
     }
   ],
-
-  "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.js"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -20,7 +25,7 @@
         },
         {
           "key": "Access-Control-Allow-Headers",
-          "value": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version"
+          "value": "Access-Control-Allow-Origin, X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version"
         }
       ]
     }
