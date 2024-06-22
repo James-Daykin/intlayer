@@ -23,7 +23,7 @@ const speciesData = [
     continent: "Comedy",
     populationTrend: "4/5",
     image:
-      "https://www.dvdplanetstore.pk/wp-content/uploads/2014/07/Mean-Girls-2004dvdplanetstorepk.jpg",
+      "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/fXm3YKXAEjx7d2tIWDg9TfRZtsU.jpg",
     description:
       "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
   },
