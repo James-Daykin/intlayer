@@ -18,7 +18,7 @@ app.use(cors(corsOptions));
 const speciesData = [
   {
     id: 1,
-    name: "Amur Leopard",
+    name: "Mean Girls",
     conservationStatus: "Critically Endangered",
     continent: "Asia",
     populationTrend: -0.03,
