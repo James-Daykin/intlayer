@@ -19,9 +19,9 @@ const speciesData = [
   {
     id: 1,
     name: "Mean Girls",
-    conservationStatus: "Critically Endangered",
+    conservationStatus: "https://www.youtube.com/watch?v=oDU84nmSDZY",
     continent: "Comedy",
-    populationTrend: -0.03,
+    populationTrend: "4/5",
     image:
       "https://th.bing.com/th/id/OIP.QYraUxXt55Xuw-1scEyeUwAAAA?rs=1&pid=ImgDetMain",
     description:
@@ -29,14 +29,13 @@ const speciesData = [
   },
   {
     id: 2,
-    name: "Black Rhino",
-    conservationStatus: "Critically Endangered",
-    continent: "Africa",
-    populationTrend: -0.05,
-    image:
-      "https://files.worldwildlife.org/wwfcmsprod/images/Black_Rhino_8.6.2012_Hero_and_Circle_HI_48366.jpg/story_full_width/6wmmiztlbs_Black_Rhino_8.6.2012_Hero_and_Circle_HI_48366.jpg",
+    name: "South Park",
+    conservationStatus: "https://www.youtube.com/watch?v=PbMl6DjhJ1I",
+    continent: "Comedy",
+    populationTrend: "4/5",
+    image: "https://flxt.tmsimg.com/assets/p11860901_p_v8_ac.jpg",
     description:
-      "The Black Rhino, native to eastern and southern Africa, is critically endangered primarily due to poaching for its horn. Conservation efforts have been implemented to protect this species, but challenges remain.",
+      "South Park: Bigger, Longer & Uncut is a 1999 American adult animated musical comedy film based on the animated sitcom South Park.",
   },
   {
     id: 3,
@@ -47,7 +46,7 @@ const speciesData = [
     image:
       "https://u4d2z7k9.rocketcdn.me/wp-content/uploads/2022/04/Untitled-design-2022-04-12T161151.368.jpg",
     description:
-      "The Vaquita is the world's rarest marine mammal, found only in the northern part of the Gulf of California, Mexico. Its population has plummeted due to illegal fishing operations and bycatch.",
+      "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
   },
   {
     id: 4,
