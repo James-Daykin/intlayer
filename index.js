@@ -20,7 +20,7 @@ const speciesData = [
     id: 1,
     name: "Mean Girls",
     conservationStatus: "Critically Endangered",
-    continent: "Asia",
+    continent: "Comedy",
     populationTrend: -0.03,
     image:
       "https://th.bing.com/th/id/OIP.QYraUxXt55Xuw-1scEyeUwAAAA?rs=1&pid=ImgDetMain",
