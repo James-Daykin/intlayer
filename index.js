@@ -25,7 +25,7 @@ const speciesData = [
     image:
       "https://www.dvdplanetstore.pk/wp-content/uploads/2014/07/Mean-Girls-2004dvdplanetstorepk.jpg",
     description:
-      "The Amur Leopard is one of the world's most endangered wild cats, found in the temperate forests of the Russian Far East and northeastern China. Its population has been drastically reduced due to habitat loss, poaching, and human encroachment.",
+      "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
   },
   {
     id: 2,
@@ -39,14 +39,14 @@ const speciesData = [
   },
   {
     id: 3,
-    name: "Vaquita",
-    conservationStatus: "Critically Endangered",
-    continent: "America",
-    populationTrend: -0.05,
+    name: "Austin Powers: The Spy Who Shagged Me",
+    conservationStatus: "https://www.youtube.com/watch?v=LGVjoLlgHbM",
+    continent: "Comedy",
+    populationTrend: "4.5/5",
     image:
-      "https://u4d2z7k9.rocketcdn.me/wp-content/uploads/2022/04/Untitled-design-2022-04-12T161151.368.jpg",
+      "https://th.bing.com/th/id/OIP.phQs102CS-Qp44IqlRaWrAHaLL?w=110&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
     description:
-      "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.",
+      "Austin Powers: The Spy Who Shagged Me is a 1999 American spy comedy film directed by Jay Roach. It is the second installment in the Austin Powers film series, after International Man of Mystery.",
   },
   {
     id: 4,
