@@ -23,7 +23,7 @@ const speciesData = [
     continent: "Comedy",
     populationTrend: "4/5",
     image:
-      "https://th.bing.com/th/id/OIP.QYraUxXt55Xuw-1scEyeUwAAAA?rs=1&pid=ImgDetMain",
+      "https://www.dvdplanetstore.pk/wp-content/uploads/2014/07/Mean-Girls-2004dvdplanetstorepk.jpg",
     description:
       "The Amur Leopard is one of the world's most endangered wild cats, found in the temperate forests of the Russian Far East and northeastern China. Its population has been drastically reduced due to habitat loss, poaching, and human encroachment.",
   },
