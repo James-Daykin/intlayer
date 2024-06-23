@@ -123,7 +123,7 @@ app.get("/endangered/:continent", (req, res) => {
   );
   const sortedSpecies = continentSpecies
     .sort((a, b) => b.populationTrend - a.populationTrend)
-    .slice(0, 5);
+    .slice(0, 15);
   res.json(sortedSpecies);
 });
 
