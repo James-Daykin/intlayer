@@ -60,17 +60,7 @@ const speciesData = [
     description:
       "Dumb and Dumber is a 1994 American buddy comedy film directed by Peter Farrelly. The film stars Jim Carrey and Jeff Daniels as dimwitted friends who set out on a cross-country trip to return a briefcase full of money.",
   },
-  {
-    id: 5,
-    name: "The Big Lebowski",
-    conservationStatus: "https://www.youtube.com/watch?v=cd-go0oBF4Y",
-    continent: "Comedy",
-    populationTrend: "4.7/5",
-    image:
-      "https://th.bing.com/th/id/OIP.h5Vtk2Wsq9xd_5UKdvBbGgHaK-?w=120&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-    description:
-      "The Big Lebowski is a 1998 American crime comedy film written, produced, and directed by Joel and Ethan Coen. The film stars Jeff Bridges as Jeffrey 'The Dude' Lebowski, a Los Angeles slacker and avid bowler.",
-  },
+
   {
     id: 6,
     name: "There's Something About Mary",
