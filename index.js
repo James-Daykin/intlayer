@@ -15,7 +15,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 // Sample species data
-const speciesData = [
+const moviesData = [
   {
     id: 1,
     name: "Mean Girls",
@@ -107,36 +107,36 @@ const speciesData = [
   },
 ];
 
-// Array with just the name and description of each species
-const speciesNamesAndDescriptions = speciesData.map((species) => ({
-  id: species.id,
-  name: species.name,
-  description: species.description,
-  image: species.image,
+// Array with just the name and description of each movie
+const moviesNamesAndDescriptions = moviesData.map((movie) => ({
+  id: movie.id,
+  name: movie.name,
+  description: movie.description,
+  image: movie.image,
 }));
 
-// Route to get top 5 endangered species for a given continent
-app.get("/endangered/:continent", (req, res) => {
-  const { continent } = req.params;
-  const continentSpecies = speciesData.filter(
-    (species) => species.continent === continent
+// Route to get top movies for a given category
+app.get("/movies/:category", (req, res) => {
+  const { category } = req.params;
+  const categoryMovies = moviesData.filter(
+    (movie) => movie.category === category
   );
-  const sortedSpecies = continentSpecies
-    .sort((a, b) => b.populationTrend - a.populationTrend)
-    .slice(0, 15);
-  res.json(sortedSpecies);
+  const sortedMovies = categoryMovies
+    .sort((a, b) => b.popularity - a.popularity) // Adjust sorting logic as per your data
+    .slice(0, 15); // Limit to top 15 movies
+  res.json(sortedMovies);
 });
 
 // Route to get name and description by id
-app.get("/species-descriptions/:id", (req, res) => {
+app.get("/movie-details/:id", (req, res) => {
   const { id } = req.params;
-  const species = speciesNamesAndDescriptions.find(
-    (species) => species.id === parseInt(id)
+  const movie = moviesNamesAndDescriptions.find(
+    (movie) => movie.id === parseInt(id)
   );
-  if (species) {
-    res.json(species);
+  if (movie) {
+    res.json(movie);
   } else {
-    res.status(404).send({ error: "Species not found" });
+    res.status(404).send({ error: "Movie not found" });
   }
 });
 
