@@ -39,7 +39,7 @@ const speciesData = [
   },
   {
     id: 3,
-    name: "Austin Powers: The Spy Who Shagged Me",
+    name: "Austin Powers",
     conservationStatus: "https://www.youtube.com/watch?v=LGVjoLlgHbM",
     continent: "Comedy",
     populationTrend: "4.5/5",
@@ -48,6 +48,75 @@ const speciesData = [
     description:
       "Austin Powers: The Spy Who Shagged Me is a 1999 American spy comedy film directed by Jay Roach. It is the second installment in the Austin Powers film series, after International Man of Mystery.",
   },
+  [
+    {
+      id: 4,
+      name: "Dumb and Dumber",
+      conservationStatus: "https://www.youtube.com/watch?v=l13yPhimE3o",
+      continent: "Comedy",
+      populationTrend: "4.3/5",
+      image:
+        "https://th.bing.com/th/id/OIP.jUcrqHwAZWBEX-bDbIytogHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      description:
+        "Dumb and Dumber is a 1994 American buddy comedy film directed by Peter Farrelly. The film stars Jim Carrey and Jeff Daniels as dimwitted friends who set out on a cross-country trip to return a briefcase full of money.",
+    },
+    {
+      id: 5,
+      name: "The Big Lebowski",
+      conservationStatus: "https://www.youtube.com/watch?v=cd-go0oBF4Y",
+      continent: "Comedy",
+      populationTrend: "4.7/5",
+      image:
+        "https://th.bing.com/th/id/OIP.h5Vtk2Wsq9xd_5UKdvBbGgHaK-?w=120&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      description:
+        "The Big Lebowski is a 1998 American crime comedy film written, produced, and directed by Joel and Ethan Coen. The film stars Jeff Bridges as Jeffrey 'The Dude' Lebowski, a Los Angeles slacker and avid bowler.",
+    },
+    {
+      id: 6,
+      name: "There's Something About Mary",
+      conservationStatus: "https://www.youtube.com/watch?v=20PQBtyfNZY",
+      continent: "Comedy",
+      populationTrend: "4.4/5",
+      image:
+        "https://th.bing.com/th/id/OIP.IGybD_B24y6fl8fgdFYH5AHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      description:
+        "There's Something About Mary is a 1998 American romantic comedy film directed by Bobby and Peter Farrelly. The film stars Cameron Diaz as Mary, with Ben Stiller and Matt Dillon as her love interests.",
+    },
+    {
+      id: 7,
+      name: "Office Space",
+      conservationStatus: "https://www.youtube.com/watch?v=dMIrlP61Z9s",
+      continent: "Comedy",
+      populationTrend: "4.6/5",
+      image:
+        "https://th.bing.com/th/id/OIP.KNW8B7FRtQybBZSLW_0KYwHaK-?w=120&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      description:
+        "Office Space is a 1999 American black comedy film written and directed by Mike Judge. It satirizes the work life of a typical mid-to-late-1990s software company, focusing on a handful of individuals fed up with their jobs.",
+    },
+    {
+      id: 8,
+      name: "Anchorman: The Legend of Ron Burgundy",
+      conservationStatus: "https://www.youtube.com/watch?v=NJQ4qEWm9lU",
+      continent: "Comedy",
+      populationTrend: "4.5/5",
+      image:
+        "https://th.bing.com/th/id/OIP.Qk3kSxnbkvxLFvg4ljORjAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      description:
+        "Anchorman: The Legend of Ron Burgundy is a 2004 American comedy film directed by Adam McKay. The film stars Will Ferrell as Ron Burgundy, a top-rated newsman in San Diego during the 1970s.",
+    },
+    {
+      id: 9,
+      name: "American Pie",
+      conservationStatus: "https://www.youtube.com/watch?v=iUZ3Yxok6N8",
+      continent: "Comedy",
+      populationTrend: "4.2/5",
+      image:
+        "https://th.bing.com/th/id/OIP.eL8k82OAsPyHdGuQLxemNAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      description:
+        "American Pie is a 1999 American teen sex comedy film directed by Paul Weitz. It is the first film in the American Pie theatrical series and stars Jason Biggs, Chris Klein, and Seann William Scott.",
+    },
+  ],
+
   {
     id: 4,
     name: "Sumatran Elephant",
