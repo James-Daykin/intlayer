@@ -50,7 +50,7 @@ const moviesData = [
   },
   {
     id: 4,
-    name: "Dumb and Dumber",
+    name: "Dumb & Dumber",
     category: "Comedy",
     rating: "4.3/5",
     trailer: "https://www.youtube.com/watch?v=l13yPhimE3o",
@@ -63,9 +63,9 @@ const moviesData = [
     name: "There's Something About Mary",
     category: "Comedy",
     rating: "4.4/5",
-    trailer: "https://www.youtube.com/watch?v=20PQBtyfNZY",
+    trailer: "https://www.youtube.com/watch?v=503D8hOfE_8",
     image:
-      "https://th.bing.com/th/id/OIP.IGybD_B24y6fl8fgdFYH5AHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/g03pwohXHOI75InM3zraiaEGguO.jpg",
     description:
       "There's Something About Mary is a 1998 American romantic comedy film directed by Bobby and Peter Farrelly. The film stars Cameron Diaz as Mary, with Ben Stiller and Matt Dillon as her love interests.",
   },
@@ -74,20 +74,20 @@ const moviesData = [
     name: "Office Space",
     category: "Comedy",
     rating: "4.6/5",
-    trailer: "https://www.youtube.com/watch?v=dMIrlP61Z9s",
+    trailer: "https://www.youtube.com/watch?v=rPJUXZvX6UI",
     image:
-      "https://th.bing.com/th/id/OIP.KNW8B7FRtQybBZSLW_0KYwHaK-?w=120&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/v7fBXxHZ5WQn2PGgpXhTqHgtcJk.jpg",
     description:
       "Office Space is a 1999 American black comedy film written and directed by Mike Judge. It satirizes the work life of a typical mid-to-late-1990s software company, focusing on a handful of individuals fed up with their jobs.",
   },
   {
     id: 8,
-    name: "Anchorman: The Legend of Ron Burgundy",
+    name: "Anchorman",
     category: "Comedy",
     rating: "4.5/5",
     trailer: "https://www.youtube.com/watch?v=NJQ4qEWm9lU",
     image:
-      "https://th.bing.com/th/id/OIP.Qk3kSxnbkvxLFvg4ljORjAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/9rQceSyOxJpOVsJRhkgoxNqbkvA.jpg",
     description:
       "Anchorman: The Legend of Ron Burgundy is a 2004 American comedy film directed by Adam McKay. The film stars Will Ferrell as Ron Burgundy, a top-rated newsman in San Diego during the 1970s.",
   },
@@ -98,7 +98,7 @@ const moviesData = [
     rating: "4.2/5",
     trailer: "https://www.youtube.com/watch?v=iUZ3Yxok6N8",
     image:
-      "https://th.bing.com/th/id/OIP.eL8k82OAsPyHdGuQLxemNAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/n0nglZOU2uLMAwf1glc6dEWvojC.jpg",
     description:
       "American Pie is a 1999 American teen sex comedy film directed by Paul Weitz. It is the first film in the American Pie theatrical series and stars Jason Biggs, Chris Klein, and Seann William Scott.",
   },
