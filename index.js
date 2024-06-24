@@ -21,7 +21,7 @@ const moviesData = [
     name: "Mean Girls",
     category: "Comedy",
     rating: "4/5",
-    trailer: "https://www.youtube.com/watch?v=oDU84nmSDZY",
+    trailer: "https://www.youtube.com/embed/LGVjoLlgHbM?si=duoUmqHpDdrhEGzg",
     image:
       "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/fXm3YKXAEjx7d2tIWDg9TfRZtsU.jpg",
     description:
@@ -53,7 +53,7 @@ const moviesData = [
     name: "Dumb & Dumber",
     category: "Comedy",
     rating: "4.3/5",
-    trailer: "https://www.youtube.com/watch?v=l13yPhimE3o",
+    trailer: "https://www.youtube.com/embed/l13yPhimE3o?si=tBGqK9eI-hbO1i1V",
     image: "https://image.tmdb.org/t/p/w1280/4LdpBXiCyGKkR8FGHgjKlphrfUc.jpg",
     description:
       "Dumb and Dumber is a 1994 American buddy comedy film directed by Peter Farrelly. The film stars Jim Carrey and Jeff Daniels as dimwitted friends who set out on a cross-country trip to return a briefcase full of money.",
@@ -74,7 +74,7 @@ const moviesData = [
     name: "Office Space",
     category: "Comedy",
     rating: "4.6/5",
-    trailer: "https://www.youtube.com/watch?v=rPJUXZvX6UI",
+    trailer: "https://www.youtube.com/embed/rPJUXZvX6UI?si=n6F_hchGRFYjw3XM",
     image:
       "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/v7fBXxHZ5WQn2PGgpXhTqHgtcJk.jpg",
     description:
@@ -96,7 +96,7 @@ const moviesData = [
     name: "American Pie",
     category: "Comedy",
     rating: "4.2/5",
-    trailer: "https://www.youtube.com/embed/PbMl6DjhJ1I?si=8PkjhAa4K-l4IEfZ",
+    trailer: "https://www.youtube.com/embed/iUZ3Yxok6N8?si=D4iJGQc1b_aH2gEx",
     image:
       "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/n0nglZOU2uLMAwf1glc6dEWvojC.jpg",
     description:
