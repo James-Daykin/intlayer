@@ -119,7 +119,9 @@ app.get("/movies/:category", (req, res) => {
   const categoryMovies = moviesData.filter(
     (movie) => movie.category === category
   );
-
+  const sortedMovies = categoryMovies
+    .sort((a, b) => b.id - a.id) // Adjust sorting logic as per your data
+    .slice(0, 15); // Limit to top 15 movies
   res.json(categoryMovies);
 });
 
