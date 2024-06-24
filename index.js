@@ -32,7 +32,7 @@ const moviesData = [
     name: "South Park",
     category: "Comedy",
     rating: "4/5",
-    trailer: "https://www.youtube.com/watch?v=PbMl6DjhJ1I",
+    trailer: "https://youtu.be/PbMl6DjhJ1I?si=s6DRCR8xF6evqPYC",
     image: "https://flxt.tmsimg.com/assets/p11860901_p_v8_ac.jpg",
     description:
       "South Park: Bigger, Longer & Uncut is a 1999 American adult animated musical comedy film based on the animated sitcom South Park.",
