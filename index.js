@@ -109,7 +109,7 @@ const moviesNamesAndDescriptions = moviesData.map((movie) => ({
   id: movie.id,
   name: movie.name,
   description: movie.description,
-  image: movie.image,
+  trailer: movie.trailer,
 }));
 
 // Route to get top movies for a given category
