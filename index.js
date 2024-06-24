@@ -32,7 +32,7 @@ const moviesData = [
     name: "South Park",
     category: "Comedy",
     rating: "4/5",
-    trailer: "https://youtu.be/PbMl6DjhJ1I?si=s6DRCR8xF6evqPYC",
+    trailer: "ttps://www.youtube.com/embed/PbMl6DjhJ1I?si=8PkjhAa4K-l4IEfZ",
     image: "https://flxt.tmsimg.com/assets/p11860901_p_v8_ac.jpg",
     description:
       "South Park: Bigger, Longer & Uncut is a 1999 American adult animated musical comedy film based on the animated sitcom South Park.",
@@ -96,7 +96,7 @@ const moviesData = [
     name: "American Pie",
     category: "Comedy",
     rating: "4.2/5",
-    trailer: "https://www.youtube.com/embed/iUZ3Yxok6N8?si=D4iJGQc1b_aH2gEx",
+    trailer: "ttps://www.youtube.com/embed/PbMl6DjhJ1I?si=8PkjhAa4K-l4IEfZ",
     image:
       "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/n0nglZOU2uLMAwf1glc6dEWvojC.jpg",
     description:
