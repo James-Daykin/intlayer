@@ -54,8 +54,7 @@ const moviesData = [
     category: "Comedy",
     rating: "4.3/5",
     trailer: "https://www.youtube.com/watch?v=l13yPhimE3o",
-    image:
-      "https://th.bing.com/th/id/OIP.jUcrqHwAZWBEX-bDbIytogHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    image: "https://image.tmdb.org/t/p/w1280/4LdpBXiCyGKkR8FGHgjKlphrfUc.jpg",
     description:
       "Dumb and Dumber is a 1994 American buddy comedy film directed by Peter Farrelly. The film stars Jim Carrey and Jeff Daniels as dimwitted friends who set out on a cross-country trip to return a briefcase full of money.",
   },
