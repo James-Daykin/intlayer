@@ -85,7 +85,7 @@ const moviesData = [
     name: "Anchorman",
     category: "Comedy",
     rating: "4.5/5",
-    trailer: "https://www.youtube.com/watch?v=NJQ4qEWm9lU",
+    trailer: "https://www.youtube.com/embed/QvJ1K0_JzFI?si=LNDFybSU6LKuVwpr",
     image:
       "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/9rQceSyOxJpOVsJRhkgoxNqbkvA.jpg",
     description:
