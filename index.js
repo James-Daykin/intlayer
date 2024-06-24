@@ -44,7 +44,7 @@ const moviesData = [
     rating: "4.5/5",
     trailer: "https://www.youtube.com/watch?v=LGVjoLlgHbM",
     image:
-      "https://th.bing.com/th/id/OIP.phQs102CS-Qp44IqlRaWrAHaLL?w=110&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/f2ohIBEbc3eERyU5pgSknm8DqUj.jpg",
     description:
       "Austin Powers: The Spy Who Shagged Me is a 1999 American spy comedy film directed by Jay Roach. It is the second installment in the Austin Powers film series, after International Man of Mystery.",
   },
