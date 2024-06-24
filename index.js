@@ -96,7 +96,7 @@ const moviesData = [
     name: "American Pie",
     category: "Comedy",
     rating: "4.2/5",
-    trailer: "https://www.youtube.com/watch?v=iUZ3Yxok6N8",
+    trailer: "https://www.youtube.com/embed/iUZ3Yxok6N8?si=D4iJGQc1b_aH2gEx",
     image:
       "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/n0nglZOU2uLMAwf1glc6dEWvojC.jpg",
     description:
