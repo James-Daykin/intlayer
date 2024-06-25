@@ -21,7 +21,7 @@ const moviesData = [
     name: "Mean Girls",
     category: "Comedy",
     rating: "4/5",
-    trailer: "https://www.youtube.com/embed/LGVjoLlgHbM?si=duoUmqHpDdrhEGzg",
+    trailer: "https://www.youtube.com/embed/oDU84nmSDZY?si=NDnwhf8WsHfAIJ0X",
     image:
       "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/fXm3YKXAEjx7d2tIWDg9TfRZtsU.jpg",
     description:
@@ -42,7 +42,7 @@ const moviesData = [
     name: "Austin Powers",
     category: "Comedy",
     rating: "4.5/5",
-    trailer: "https://www.youtube.com/watch?v=LGVjoLlgHbM",
+    trailer: "https://www.youtube.com/embed/LGVjoLlgHbM?si=duoUmqHpDdrhEGzg",
     image:
       "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/f2ohIBEbc3eERyU5pgSknm8DqUj.jpg",
     description:
@@ -58,17 +58,7 @@ const moviesData = [
     description:
       "Dumb and Dumber is a 1994 American buddy comedy film directed by Peter Farrelly. The film stars Jim Carrey and Jeff Daniels as dimwitted friends who set out on a cross-country trip to return a briefcase full of money.",
   },
-  {
-    id: 6,
-    name: "There's Something About Mary",
-    category: "Comedy",
-    rating: "4.4/5",
-    trailer: "https://www.youtube.com/watch?v=503D8hOfE_8",
-    image:
-      "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/g03pwohXHOI75InM3zraiaEGguO.jpg",
-    description:
-      "There's Something About Mary is a 1998 American romantic comedy film directed by Bobby and Peter Farrelly. The film stars Cameron Diaz as Mary, with Ben Stiller and Matt Dillon as her love interests.",
-  },
+
   {
     id: 7,
     name: "Office Space",
