@@ -129,7 +129,7 @@ const moviesData = [
     rating: "4.6/5",
     year: 2013,
     trailer: "https://www.youtube.com/embed/dJTU48_yghs?si=r0UO_6HHiGdoGYTX",
-    image: "https://www.themoviedb.org/movie/152601-her",
+    image: "https://image.tmdb.org/t/p/w1280/lEIaL12hSkqqe83kgADkbUqEnvk.jpg",
     description:
       "Her is a 2013 American science-fiction romantic drama film written, directed, and produced by Spike Jonze. It marks Jonze's solo screenwriting debut. The film follows Theodore Twombly (Joaquin Phoenix), a man who develops a relationship with Samantha (Scarlett Johansson), an artificially intelligent virtual assistant personified through a female voice.",
   },
@@ -243,7 +243,7 @@ const moviesData = [
   },
   {
     id: 20,
-    name: "Mad Max: Fury Road",
+    name: "Mad Max",
     category: "Action",
     rating: "4.8/5",
     year: 2015,
@@ -286,6 +286,7 @@ const moviesNamesAndDescriptions = moviesData.map((movie) => ({
   category: movie.category,
   image: movie.image,
   year: movie.year,
+  rating: movie.rating,
   description: movie.description,
   trailer: movie.trailer,
 }));
