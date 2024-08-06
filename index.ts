@@ -3,7 +3,7 @@ import express, { Request, Response } from "express";
 import cors from "cors";
 
 const app = express();
-const PORT = 3000; // Updated PORT to a valid number for local development
+const PORT = 3000;
 
 // CORS configuration
 const corsOptions = {
