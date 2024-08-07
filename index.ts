@@ -3,7 +3,7 @@ import express, { Request, Response } from "express";
 import cors from "cors";
 
 const app = express();
-const PORT = 3000;
+const PORT = "https://intlayer-ru6a2okon-james-daykins-projects.vercel.app/";
 
 // CORS configuration
 const corsOptions = {
